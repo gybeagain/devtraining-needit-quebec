@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_job_indicator_breakdown_ex">
     <pa_job_indicator_breakdown_ex action="INSERT_OR_UPDATE">
         <breakdown display_value="NeedIt Request type">55d8f5692fc630108ece93acf699b6bb</breakdown>
-        <job_indicator display_value="temporary job for collecting NeedIt Requested for - NeedIt: Due Monthly">5eb971e52fc630108ece93acf699b64f</job_indicator>
+        <job_indicator display_value="temporary job for collecting NeedIt Requested for - ">5eb971e52fc630108ece93acf699b64f</job_indicator>
         <sys_class_name>pa_job_indicator_breakdown_ex</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-08-18 10:20:12</sys_created_on>

@@ -50,7 +50,7 @@
         <include_target>false</include_target>
         <include_thresholds>false</include_thresholds>
         <include_trend>false</include_trend>
-        <indicator display_value="NeedIt: Due Monthly">1e54f5a52fc630108ece93acf699b6f8</indicator>
+        <indicator display_value="">1e54f5a52fc630108ece93acf699b6f8</indicator>
         <is_compare_chart>false</is_compare_chart>
         <lastscore_compare>previous_score</lastscore_compare>
         <lastscore_periods_back/>

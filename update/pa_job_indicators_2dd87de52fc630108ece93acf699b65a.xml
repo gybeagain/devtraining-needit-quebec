@@ -3,8 +3,8 @@
         <active>true</active>
         <collect>2</collect>
         <collect_indicator>true</collect_indicator>
-        <display>temporary job for collecting NeedIt Request type - NeedIt: Due Monthly</display>
-        <indicator display_value="NeedIt: Due Monthly">1e54f5a52fc630108ece93acf699b6f8</indicator>
+        <display>temporary job for collecting NeedIt Request type - </display>
+        <indicator display_value="">1e54f5a52fc630108ece93acf699b6f8</indicator>
         <job display_value="temporary job for collecting NeedIt Request type">add87de52fc630108ece93acf699b658</job>
         <sys_class_name>pa_job_indicators</sys_class_name>
         <sys_created_by>admin</sys_created_by>

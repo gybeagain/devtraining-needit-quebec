@@ -12,7 +12,6 @@
         <description>Steps to approve and fulfill NeedIt requests.</description>
         <internal_name>needit_fulfillment</internal_name>
         <label_cache>[{"name":"21ad8c51-e1cb-4e4c-b58c-ea03a4beac29.record","label":"1➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"21ad8c51-e1cb-4e4c-b58c-ea03a4beac29.table_name","label":"1➛NeedIt Table","reference":"x_58872_needit_needit","reference_display":"NeedIt Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"reference","base_type":"reference","attributes":{}},{"name":"4c91b72a-eaf8-463a-aa04-840aa4f384a4.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.u_requested_for.manager","label":"Trigger➛NeedIt Record➛Requested for➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"7c38b42a-5913-48ac-8695-6ae7b07c1813.record","label":"4➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7c38b42a-5913-48ac-8695-6ae7b07c1813.table_name","label":"4➛NeedIt Table","reference":"x_58872_needit_needit","reference_display":"NeedIt Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"aac8dec6-8da9-4e44-8538-b9827f622243.record","label":"6➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"aac8dec6-8da9-4e44-8538-b9827f622243.table_name","label":"6➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
-        <latest_snapshot>ed65b5872f3230108ece93acf699b6b8</latest_snapshot>
         <master_snapshot>408339072f3230108ece93acf699b652</master_snapshot>
         <name>NeedIt Fulfillment</name>
         <natlang/>
@@ -859,11 +858,11 @@
         <sys_created_on>2021-09-28 15:41:39</sys_created_on>
         <sys_id>077c0efe2f7230108ece93acf699b6ea</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_982c06fe2f7230108ece93acf699b6d0_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-09-28 15:41:39</sys_updated_on>
         <url/>
@@ -882,11 +881,11 @@
         <sys_created_on>2021-09-28 15:41:39</sys_created_on>
         <sys_id>c37c0efe2f7230108ece93acf699b6e4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_982c06fe2f7230108ece93acf699b6d0_current_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-09-28 15:41:39</sys_updated_on>
         <url/>
@@ -1325,7 +1324,7 @@
         <sys_created_on>2021-09-29 08:30:59</sys_created_on>
         <sys_id>0c8339072f3230108ece93acf699b690</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
@@ -1348,7 +1347,7 @@
         <sys_created_on>2021-09-29 08:31:00</sys_created_on>
         <sys_id>408339072f3230108ece93acf699b69b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
@@ -1358,4 +1357,8 @@
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_hub_flow action="update">
+        <sys_id>982c06fe2f7230108ece93acf699b6d0</sys_id>
+        <latest_snapshot>408339072f3230108ece93acf699b652</latest_snapshot>
+    </sys_hub_flow>
 </record_update>

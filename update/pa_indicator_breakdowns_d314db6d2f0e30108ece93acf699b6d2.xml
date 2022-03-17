@@ -2,7 +2,7 @@
     <pa_indicator_breakdowns action="INSERT_OR_UPDATE">
         <breakdown display_value="NeedIt Requests by Month Halves">6663536d2f0e30108ece93acf699b63f</breakdown>
         <display>true</display>
-        <indicator display_value="NeedIt: Due Monthly">1e54f5a52fc630108ece93acf699b6f8</indicator>
+        <indicator display_value="">1e54f5a52fc630108ece93acf699b6f8</indicator>
         <order>300</order>
         <sql_statement/>
         <sys_class_name>pa_indicator_breakdowns</sys_class_name>
