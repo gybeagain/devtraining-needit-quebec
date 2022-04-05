@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_58872_needit.MyCustomAjax</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>Ajax array:&#13;
+function onLoad() {&#13;
+    var ga = new GlideAjax('MyCustomAjax');&#13;
+    ga.addParam('sysparm_name', 'threeLastIncidents');&#13;
+    ga.getXML(showMessage3);&#13;
+}&#13;
+&#13;
+function showMessage3(response) {&#13;
+    var answer = response.responseXML.documentElement.getAttribute("answer");&#13;
+    g_form.addInfoMessage(answer); //JSON String&#13;
+&#13;
+    answer = answer.evalJSON(); //Transform the JSON string to an object&#13;
+    g_form.addInfoMessage(answer);&#13;
+&#13;
+    for( var i=0 ; i &lt; answer.length ; i++) { //Loop into the array&#13;
+        g_form.addInfoMessage(answer[i].number + " - " + answer[i].callerName + " - " + answer[i].shortDescription);&#13;
+    }&#13;
+}&#13;
+</description>
+        <name>MyCustomAjax</name>
+        <script><![CDATA[var MyCustomAjax = Class.create();
+MyCustomAjax.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+
+            threeLastIncidents: function() {
+                var incident = new GlideRecord('incident');
+                incident.orderByDesc('sys_created_on');
+                incident.setLimit(3);
+                incident.query();
+
+                var array = [];
+
+                while (incident.next()) {
+                    var object = {};
+                    object.number = incident.getDisplayValue('number');
+                    object.callerName = incident.getDisplayValue('caller_id');
+                    object.shortDescription = incident.getDisplayValue('short_description');
+                    array.push(object);
+                }
+
+                var json = new JSON();
+                var data = json.encode(array); //JSON formatted string
+
+                return data;
+            },
+            type: 'MyCustomAjax'
+        });]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-05 15:15:29</sys_created_on>
+        <sys_id>6c8a13af2f2e41108ece93acf699b6ca</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>MyCustomAjax</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_include_6c8a13af2f2e41108ece93acf699b6ca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-05 15:18:16</sys_updated_on>
+    </sys_script_include>
+</record_update>
