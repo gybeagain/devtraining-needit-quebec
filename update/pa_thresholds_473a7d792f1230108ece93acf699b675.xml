@@ -11,7 +11,7 @@
         <element/>
         <element_level2/>
         <indicator display_value="NeedIt: Active Weekly">5ff47d652fc630108ece93acf699b663</indicator>
-        <last_check>20220328</last_check>
+        <last_check>20231218</last_check>
         <owner/>
         <sys_class_name>pa_thresholds</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -19,7 +19,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>473a7d792f1230108ece93acf699b675</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>51</sys_mod_count>
         <sys_name>NeedIt: Active Weekly</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -27,7 +27,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>pa_thresholds_473a7d792f1230108ece93acf699b675</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-03-29 22:00:09</sys_updated_on>
+        <sys_updated_on>2023-12-19 23:00:01</sys_updated_on>
         <value>800</value>
     </pa_thresholds>
 </record_update>
